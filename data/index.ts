@@ -78,7 +78,6 @@ export const projects = [
     description:
       "Cloakbin is your go-to platform for swiftly sharing text and code snippets securely and anonymously. With a minimalist interface and robust encryption, Cloakbin prioritizes speed and privacy.",
     technologies: ["EJS"],
-    github: "https://github.com/your-repo/cloakbin", // Replace with actual GitHub repo
     liveUrl: "https://cloakbin.com",
   },
   {
@@ -87,8 +86,7 @@ export const projects = [
     description:
       "PixaShield, an AI Intelligent Camera Solution, was developed by the team from Thakur College of Engineering. It was the first prize winner in the Rajasthan Police Hackathon 1.0.",
     technologies: ["AI", "Surveillance"],
-    github: "",  // Leave empty if no GitHub repository
-    liveUrl: "",  // Leave empty if no live demo URL
+    liveUrl: "https://github.com/Ishannaik/PixaShield",
   },
   {
     title: "Networld Technologies",
@@ -96,7 +94,6 @@ export const projects = [
     description:
       "Landing page created for NetWorld Technologies. A simple, clean, and responsive design.",
     technologies: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/your-repo/landing-page", // Replace with actual GitHub repo
     liveUrl: "https://networldtechnologies.in",
   },
   {
@@ -105,11 +102,9 @@ export const projects = [
     description:
       "Landing page website for BrainWave, featuring interactive elements and modern design.",
     technologies: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/your-repo/brainwave", // Replace with actual GitHub repo
-    liveUrl: "", // Leave empty if no live demo URL
+    liveUrl: "https://brainwaveaiapp.vercel.app/",
   },
 ];
-
 export const testimonials = [
   {
     quote:

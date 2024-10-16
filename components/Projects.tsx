@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { Tabs } from "./ui/tabs";
 import { projects } from "../data"; // Import the project data from your index.ts file
 
@@ -11,7 +12,7 @@ const Projects = () => {
     value: project.title.toLowerCase().replace(/\s+/g, "-"),
     content: (
       <div className="w-full overflow-hidden relative h-full rounded-2xl p-5 md:p-10 text-lg md:text-2xl lg:text-4xl font-bold text-white bg-gradient-to-br from-gray-900 via-indigo-800 to-cyan-600">
-        <ProjectWithImage title={project.title} image={project.image} />
+        <ProjectWithImage title={project.title} image={project.image} link={project.liveUrl} />
       </div>
     ),
   }));
@@ -27,27 +28,37 @@ const Projects = () => {
 interface ProjectWithImageProps {
   title: string;
   image: string;
+  link: string; // Added link prop
 }
 
 // ProjectWithImage component to display the title and full-width image
-const ProjectWithImage: React.FC<ProjectWithImageProps> = ({ title, image }) => {
+const ProjectWithImage: React.FC<ProjectWithImageProps> = ({ title, image, link }) => {
   return (
-    <div className="flex flex-col justify-start w-full h-full">
-      {/* Title aligned to the left */}
-      <h2 className="text-2xl md:text-3xl lg:text-5xl font-bold p-4 md:p-6">{title}</h2>
+    <Link href={link} passHref legacyBehavior>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        className="w-full h-full block"
+        aria-label={`Visit ${title} project`}
+      >
+        <div className="flex flex-col justify-start w-full h-full cursor-pointer hover:scale-105 transition-transform duration-300">
+          {/* Title aligned to the left */}
+          <h2 className="text-2xl md:text-3xl lg:text-5xl font-bold p-4 md:p-6">{title}</h2>
 
-      {/* Image taking full width and touching sides and bottom */}
-      <div className="w-full h-full">
-        <Image
-          src={image}
-          alt={`${title} image`}
-          layout="responsive"
-          width={1000}
-          height={600}
-          className="object-cover object-left-top w-full h-full rounded-2xl"
-        />
-      </div>
-    </div>
+          {/* Image taking full width and touching sides and bottom */}
+          <div className="w-full h-full">
+            <Image
+              src={image}
+              alt={`${title} image`}
+              layout="responsive"
+              width={1000}
+              height={600}
+              className="object-cover object-left-top w-full h-full rounded-2xl"
+            />
+          </div>
+        </div>
+      </a>
+    </Link>
   );
 };
 
