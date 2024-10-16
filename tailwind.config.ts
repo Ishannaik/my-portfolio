@@ -41,7 +41,14 @@ const config = {
         blue: {
           "100": "#E4ECFF",
         },
-        purple: "#CBACF9",
+        purple: {
+          700: '#6B46C1',  // Custom purple-700 shade
+          800: '#553C9A',  // Custom purple-800 shade
+          900: '#44337A',  // Custom purple-900 shade
+        },
+        violet: {
+          900: '#5B21B6',  // Custom violet-900 shade
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -191,8 +198,8 @@ const config = {
 } satisfies Config;
 
 function addVariablesForColors({ addBase, theme }: any) {
-  const allColors = flattenColorPalette(theme("colors"));
-  const newVars = Object.fromEntries(
+  let allColors = flattenColorPalette(theme("colors"));
+  let newVars = Object.fromEntries(
     Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
   );
 
