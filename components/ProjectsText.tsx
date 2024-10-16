@@ -4,7 +4,7 @@ import { SparklesCore } from "./ui/sparkles";
 
 const ProjectsText = () => {
   return (
-    <div className="h-[15rem] md:h-[20rem] lg:h-[25rem] bg-blue w-full flex flex-col items-center justify-center overflow-hidden rounded-md">
+    <div id="projects" className="h-[15rem] md:h-[20rem] lg:h-[25rem] bg-blue w-full flex flex-col items-center justify-center overflow-hidden rounded-md">
       <h1 className="text-3xl md:text-6xl lg:text-7xl font-bold text-center text-white relative z-20">
         Projects
       </h1>

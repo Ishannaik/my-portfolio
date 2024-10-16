@@ -88,7 +88,7 @@ export default function TimelineComponent() {
   ];
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen pb-20">
       <Timeline data={data} />
     </div>
   );
