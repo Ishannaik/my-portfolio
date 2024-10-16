@@ -83,7 +83,7 @@ export const projects = [
   },
   {
     title: "PixaShield",
-    image: "/pixashield.png", // Replace with actual image path
+    image: "/pixashield_gun.png", // Replace with actual image path
     description:
       "PixaShield, an AI Intelligent Camera Solution, was developed by the team from Thakur College of Engineering. It was the first prize winner in the Rajasthan Police Hackathon 1.0.",
     technologies: ["AI", "Surveillance"],
@@ -100,7 +100,7 @@ export const projects = [
     liveUrl: "https://networldtechnologies.in",
   },
   {
-    title: "BrainWave",
+    title: "Brainwave",
     image: "/brainwave.png", // Replace with actual image path
     description:
       "Landing page website for BrainWave, featuring interactive elements and modern design.",

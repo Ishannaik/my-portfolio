@@ -12,12 +12,12 @@ export default function TimelineComponent() {
           <div className="mb-4">
             <h2>Freelance Developer</h2>
             <p>
-              Duration: Jul 2017 - Present | Mumbai, Maharashtra, India - Remote
               <br />
-              Developed custom Python bots and Minecraft plugins for clients.
+              Developed landing pages for businesses, Python automation scripts, and Java Minecraft plugins.
               <br />
-              Specialized in Python and Java programming. Enhanced project
-              productivity through automation and server management solutions.
+              Specialized in Discord bot development and backend solutions.
+              <br />
+              Enhanced project workflows through automation and server management.
             </p>
           </div>
           <div className="p-4">
@@ -44,7 +44,7 @@ export default function TimelineComponent() {
                 className={commonImageClass}
               />
               <Image
-                src="/pixashield.png"
+                src="/pixashield_gun.png"
                 alt="Project Image 4"
                 width={500}
                 height={500}
@@ -56,96 +56,30 @@ export default function TimelineComponent() {
       ),
     },
     {
-      title: "2019",
-      content: (
-        <>
-          <div className="mb-4">
-            <h2>Freelance Developer</h2>
-            <p>
-              Duration: Jul 2017 - Present | Mumbai, Maharashtra, India - Remote
-              <br />
-              Developed custom Python bots and Minecraft plugins for clients.
-              <br />
-              Specialized in Python and Java programming. Enhanced project
-              productivity through automation and server management solutions.
-            </p>
-          </div>
-          <div className="grid grid-cols-2 gap-4">
-            <Image
-              src="https://assets.aceternity.com/templates/startup-1.webp"
-              alt="Project Image 1"
-              width={500}
-              height={500}
-              className={commonImageClass}
-            />
-            <Image
-              src="https://assets.aceternity.com/templates/startup-2.webp"
-              alt="Project Image 2"
-              width={500}
-              height={500}
-              className={commonImageClass}
-            />
-            <Image
-              src="https://assets.aceternity.com/templates/startup-3.webp"
-              alt="Project Image 3"
-              width={500}
-              height={500}
-              className={commonImageClass}
-            />
-            <Image
-              src="https://assets.aceternity.com/templates/startup-4.webp"
-              alt="Project Image 4"
-              width={500}
-              height={500}
-              className={commonImageClass}
-            />
-          </div>
-        </>
-      ),
-    },
-    {
       title: "2017",
       content: (
         <>
           <div className="mb-4">
             <h2>Founder & Manager - Minecraft Server InPocket</h2>
             <p>
-              Duration: Jul 2017 - Apr 2019 | Mumbai, Maharashtra, India -
-              Hybrid
               <br />
-              Developed and customized the server using Java and JSON, managing
-              cloud infrastructure. Led marketing and community-building
-              efforts, resulting in a 30% boost in engagement.
+              I developed custom plugins from scratch using Java and JSON, while overseeing cloud infrastructure and integrating a payment gateway. Additionally, I led community engagement and marketing efforts to foster a vibrant, active player base.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="https://assets.aceternity.com/templates/startup-1.webp"
-              alt="Project Image 1"
+              src="/minecraft1.jpg"
+              alt="Minecraft Image 1"
               width={500}
               height={500}
-              className={commonImageClass}
+              className="rounded-lg object-cover w-full"
             />
             <Image
-              src="https://assets.aceternity.com/templates/startup-2.webp"
-              alt="Project Image 2"
+              src="/minecraft2.png"
+              alt="Minecraft Image 2"
               width={500}
               height={500}
-              className={commonImageClass}
-            />
-            <Image
-              src="https://assets.aceternity.com/templates/startup-3.webp"
-              alt="Project Image 3"
-              width={500}
-              height={500}
-              className={commonImageClass}
-            />
-            <Image
-              src="https://assets.aceternity.com/templates/startup-4.webp"
-              alt="Project Image 4"
-              width={500}
-              height={500}
-              className={commonImageClass}
+              className="rounded-lg object-cover w-full"
             />
           </div>
         </>

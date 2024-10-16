@@ -10,14 +10,14 @@ const Projects = () => {
     title: project.title,
     value: project.title.toLowerCase().replace(/\s+/g, "-"),
     content: (
-      <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+      <div className="w-full overflow-hidden relative h-full rounded-2xl p-5 md:p-10 text-lg md:text-2xl lg:text-4xl font-bold text-white bg-gradient-to-br from-gray-900 via-indigo-800 to-cyan-600">
         <ProjectWithImage title={project.title} image={project.image} />
       </div>
     ),
   }));
 
   return (
-    <div className="h-[20rem] md:h-[40rem] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full items-start justify-start my-5">
+    <div className="h-[15rem] md:h-[30rem] lg:h-[40rem] [perspective:1000px] relative flex flex-col max-w-5xl mx-auto w-full items-start justify-start my-5">
       <Tabs tabs={tabs} />
     </div>
   );
@@ -34,7 +34,7 @@ const ProjectWithImage: React.FC<ProjectWithImageProps> = ({ title, image }) => 
   return (
     <div className="flex flex-col justify-start w-full h-full">
       {/* Title aligned to the left */}
-      <h2 className="text-4xl md:text-5xl font-bold p-6">{title}</h2>
+      <h2 className="text-2xl md:text-3xl lg:text-5xl font-bold p-4 md:p-6">{title}</h2>
 
       {/* Image taking full width and touching sides and bottom */}
       <div className="w-full h-full">

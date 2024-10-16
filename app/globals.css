@@ -35,6 +35,16 @@
     --radius: 0.5rem;
   }
 
+  .no-visible-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .no-visible-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
   .dark {
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
