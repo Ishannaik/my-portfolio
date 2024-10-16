@@ -41,7 +41,6 @@ const slugs = [
     "twitter",           // Twitter
     "instagram",         // Instagram
     "youtube",            // YouTube
-    "capcut",
     "canva",
     "discord",
     "telegram",
