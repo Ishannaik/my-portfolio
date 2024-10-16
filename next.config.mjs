@@ -4,3 +4,5 @@ const nextConfig = {
     domains: ["via.placeholder.com", "assets.aceternity.com"],
   },
 };
+
+export default nextConfig; // Use this in ES modules
