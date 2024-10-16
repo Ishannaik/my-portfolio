@@ -23,8 +23,6 @@ const slugs = [
     "github",
     "gitlab",
     "visualstudiocode",
-    "androidstudio",
-    "sonarqube",
     "figma",
     "sublimetext",       // Sublime Text
     "anaconda",          // Anaconda

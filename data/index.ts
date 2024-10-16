@@ -113,33 +113,38 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Mr. Ishan was quite the smooth experience. He understood the problem at hand and the requirements of the project right away with little explanation. The end result was a very clean, modern and functional website delivered as promised in both time and quality. I would definitely recommend him if you need a quick and reliable solution.",
+    name: "Siddhant Chetlur",
+    title: "Satisfied Client",
+    image: "/chetlur.jpg"
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Ishan exceeded my expectations. His attention to detail and innovative thinking provided us with exactly what we needed. The end product was more than what we asked for, thanks to his commitment to delivering high-quality results.",
+    name: "Ishaan Gupta",
+    title: "Satisfied Customer",
+    image: "/gupta.jpg"
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Ishan’s problem-solving abilities and in-depth knowledge of the latest technologies made our project a huge success. His dedication and work ethic are second to none.",
+    name: "Satvam Thakkar",
+    title: "Satisfied Customer",
+    image: "/satvam.jpg"
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Ishan took on every challenge we threw at him and came up with great solutions each time. His level of commitment and skill ensured that our project was delivered on time and with high quality.",
+    name: "Shounak Dewoolkar",
+    title: "Intern at Drip Capital",
+    image: "/shounak.jpg"
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Ishan has been an absolute joy. His ability to understand complex requirements and transform them into functional, user-friendly products is truly impressive.",
+    name: "Prashant",
+    title: "Founder of Networld Technologies",
+    image: "/prashant.webp"
   },
 ];
 
