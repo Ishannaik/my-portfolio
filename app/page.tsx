@@ -9,7 +9,7 @@ import Clients from "@/components/Clients";
 import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
-import RecentProjects from "@/components/RecentProjects";
+// import RecentProjects from "@/components/RecentProjects"; 
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import ProjectsText from "@/components/ProjectsText";
 import TimelineComponent from "@/components/TimelineComponent";

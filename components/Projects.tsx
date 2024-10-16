@@ -3,8 +3,6 @@
 import Image from "next/image";
 import { Tabs } from "./ui/tabs";
 import { projects } from "../data"; // Import the project data from your index.ts file
-import image from "next/image";
-import { title } from "process";
 
 const Projects = () => {
   // Create tabs dynamically from projects data
@@ -19,14 +17,20 @@ const Projects = () => {
   }));
 
   return (
-    <div className="h-[20rem] md:h-[40rem] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full  items-start justify-start my-5">
+    <div className="h-[20rem] md:h-[40rem] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full items-start justify-start my-5">
       <Tabs tabs={tabs} />
     </div>
   );
 };
 
+// Define the props type for ProjectWithImage
+interface ProjectWithImageProps {
+  title: string;
+  image: string;
+}
+
 // ProjectWithImage component to display the title and full-width image
-const ProjectWithImage = ({ title, image }) => {
+const ProjectWithImage: React.FC<ProjectWithImageProps> = ({ title, image }) => {
   return (
     <div className="flex flex-col justify-start w-full h-full">
       {/* Title aligned to the left */}
@@ -43,7 +47,7 @@ const ProjectWithImage = ({ title, image }) => {
           className="object-cover object-left-top w-full h-full rounded-2xl"
         />
       </div>
-    </div >
+    </div>
   );
 };
 
